@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Heads-up! / Qué tengo en el coco</title>
+  <meta name="description" content="Support and contact for Heads-up! / Qué tengo en el coco." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f0c14;
+      --card: #1c1524;
+      --text: #fff6ee;
+      --muted: #cbbec8;
+      --accent: #ffc857;
+      --line: rgba(255, 246, 238, 0.14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      background: radial-gradient(1200px 600px at 10% -10%, #3a2238 0%, var(--bg) 55%);
+      color: var(--text);
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .card {
+      background: color-mix(in srgb, var(--card) 92%, black);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    }
+    h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 8px; }
+    h2 { font-size: 1.15rem; margin: 24px 0 10px; color: var(--accent); }
+    p, li { color: var(--text); }
+    .meta, .muted { color: var(--muted); }
+    .lang-nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 18px 0 8px;
+    }
+    .lang-nav a {
+      color: var(--bg);
+      background: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+      padding: 8px 12px;
+      border-radius: 999px;
+    }
+    a { color: var(--accent); }
+    .btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 16px;
+      border-radius: 14px;
+      background: var(--accent);
+      color: var(--bg);
+      font-weight: 800;
+      text-decoration: none;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 32px 0;
+    }
+    .section { scroll-margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <h1>Support — Heads-up! / Qué tengo en el coco</h1>
+      <p class="meta">
+        <strong>Developer / Desarrollador:</strong> Carlos Mateo de la Fuente<br />
+        <strong>App:</strong> Heads-up! / Qué tengo en el coco (iOS &amp; Android)<br />
+        <strong>Bundle ID:</strong> <code>com.maetodev.headsup</code>
+      </p>
+
+      <nav class="lang-nav" aria-label="Language">
+        <a href="#es">Español</a>
+        <a href="#en">English</a>
+      </nav>
+
+      <section id="es" class="section" lang="es">
+        <h2>Contacto</h2>
+        <p>
+          ¿Problemas al jugar, unirte a una sala, anuncios o la app en general?
+          Escríbenos y te ayudamos.
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:maetodev00@gmail.com">maetodev00@gmail.com</a>
+        </p>
+        <a class="btn" href="mailto:maetodev00@gmail.com?subject=Soporte%20Qu%C3%A9%20tengo%20en%20el%20coco">
+          Enviar email de soporte
+        </a>
+
+        <h2>Consejos rápidos</h2>
+        <ul>
+          <li><strong>Online:</strong> crea o únete a una sala con código o QR (misma red no es necesaria; hace falta Internet).</li>
+          <li><strong>Time’s Up:</strong> el host inicia y avanza las rondas.</li>
+          <li><strong>Offline contrarreloj:</strong> countdown de 3 s solo en la primera palabra; luego inclina ↓ acierto / ↑ fallo.</li>
+          <li><strong>Anuncios / ATT:</strong> si rechazas el seguimiento en iOS, el juego sigue funcionando.</li>
+        </ul>
+
+        <h2>Privacidad</h2>
+        <p>
+          Política de privacidad:
+          <a href="https://maetodev00.github.io/privacy_policy_headsUp.html">privacy_policy_headsUp.html</a>
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="en" class="section" lang="en">
+        <h2>Contact</h2>
+        <p>
+          Having trouble playing, joining a room, with ads, or the app in general?
+          Email us and we’ll help.
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:maetodev00@gmail.com">maetodev00@gmail.com</a>
+        </p>
+        <a class="btn" href="mailto:maetodev00@gmail.com?subject=Support%20Heads-up">
+          Send support email
+        </a>
+
+        <h2>Quick tips</h2>
+        <ul>
+          <li><strong>Online:</strong> create or join a room with a code or QR (Internet required).</li>
+          <li><strong>Time’s Up:</strong> the host starts and advances rounds.</li>
+          <li><strong>Offline timed:</strong> 3s countdown only on the first word; then tilt ↓ correct / ↑ pass.</li>
+          <li><strong>Ads / ATT:</strong> if you decline tracking on iOS, the game still works.</li>
+        </ul>
+
+        <h2>Privacy</h2>
+        <p>
+          Privacy policy:
+          <a href="https://maetodev00.github.io/privacy_policy_headsUp.html">privacy_policy_headsUp.html</a>
+        </p>
+      </section>
+
+      <p class="muted" style="margin-top: 28px; font-size: 0.9rem;">
+        Support URL for App Store Connect:
+        <a href="https://maetodev00.github.io/support_headsUp.html">https://maetodev00.github.io/support_headsUp.html</a>
+      </p>
+    </article>
+  </main>
+</body>
+</html>
