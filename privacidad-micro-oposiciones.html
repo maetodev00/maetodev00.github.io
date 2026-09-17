@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad — MaetoDev SL</title>
+  <meta name="description" content="Política de privacidad de las aplicaciones de tests de oposiciones de MaetoDev SL (RGPD, LOPDGDD y LSSI).">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.55;
+      color: #1a1a1a;
+      background: #f6f4ef;
+    }
+    header, main, footer {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    header { padding-top: 2.5rem; }
+    h1, h2 { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    h1 { font-size: 1.75rem; margin: 0 0 0.35rem; }
+    .meta { color: #555; font-size: 0.95rem; margin: 0; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 0.6rem; }
+    p, li { font-size: 1.05rem; }
+    ul { padding-left: 1.2rem; }
+    a { color: #0b4f8a; }
+    .pending {
+      background: #fff4d6;
+      border: 1px solid #e0c36a;
+      padding: 0.85rem 1rem;
+      border-radius: 6px;
+    }
+    footer {
+      color: #555;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="meta">MaetoDev SL</p>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Última actualización: 16 de septiembre de 2026</p>
+  </header>
+  <main>
+    <p class="pending">
+      El responsable es <strong>MaetoDev SL</strong>. El CIF y el domicilio
+      social se añadirán a esta política y al
+      <a href="aviso-legal.html">aviso legal</a> en cuanto consten.
+      El correo de contacto ya es el de producción:
+      <a href="mailto:maetodev00@gmail.com">maetodev00@gmail.com</a>.
+    </p>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <ul>
+      <li><strong>Identidad:</strong> MaetoDev SL</li>
+      <li><strong>CIF:</strong> pendiente de asignación</li>
+      <li><strong>Domicilio:</strong> pendiente de inscripción</li>
+      <li><strong>Correo:</strong> <a href="mailto:maetodev00@gmail.com">maetodev00@gmail.com</a></li>
+    </ul>
+    <p>
+      Esta política se aplica a las aplicaciones móviles de tests para
+      oposiciones editadas por MaetoDev SL (Test Celador SAS, Test TCAE Sanidad,
+      Test Celador SERMAS, Test TCAE SERMAS, Test Conserje y Subalterno,
+      Test Peón y Servicios Múltiples y Test Bomberos Consorcios).
+    </p>
+
+    <h2>2. Qué datos se tratan</h2>
+    <p>Las aplicaciones están diseñadas como <strong>local-first</strong>: las preguntas, respuestas y estadísticas de estudio viven en SQLite en el dispositivo. No se envían resultados de tests a redes publicitarias.</p>
+    <ul>
+      <li><strong>En el dispositivo:</strong> sesiones de test, aciertos y fallos, preferencias (tema, consentimiento), caché de suscripción Pro.</li>
+      <li><strong>Identificadores de publicidad</strong> (GAID / IDFA) si el usuario consiente anuncios personalizados a través de la plataforma de consentimiento de Google (UMP) y, en iOS, App Tracking Transparency.</li>
+      <li><strong>Compras:</strong> identificadores de transacción de Apple o Google, mediadas por RevenueCat, para el entitlement <code>pro_access</code>.</li>
+      <li><strong>Sincronización opcional:</strong> al abrir o reanudar la app puede consultarse un servicio de comprobación de versión de contenido (Supabase). La autenticación anónima y el envío de estadísticas agregadas solo ocurren si el usuario lo acepta; nunca durante un test en curso.</li>
+    </ul>
+    <p>No pedimos nombre, DNI ni correo para usar la app. El correo de esta política es el de soporte del titular, no un dato que el usuario deba facilitar.</p>
+
+    <h2>3. Finalidades y bases jurídicas</h2>
+    <ul>
+      <li><strong>Prestación del servicio de tests</strong> (ejecución de contrato / medidas precontractuales, art. 6.1.b RGPD): motor de examen, corrección y estadísticas locales.</li>
+      <li><strong>Publicidad</strong> (consentimiento, art. 6.1.a RGPD y LSSI): anuncios de Google AdMob (banner en menús, intersticial al terminar un test con capping, rewarded opt-in para desbloquear una justificación). Sin consentimiento no se piden anuncios personalizados. Nunca hay anuncios dentro del Test Runner.</li>
+      <li><strong>Compras in-app</strong> (ejecución de contrato): Google Play, App Store y RevenueCat como encargados / intermediarios de pago. Apple y Google actúan como procesadores de pago.</li>
+      <li><strong>Seguridad y mejora del contenido</strong> (interés legítimo, art. 6.1.f): sincronizar erratas y nuevas preguntas fuera del examen, y diagnosticar fallos de arranque.</li>
+    </ul>
+
+    <h2>4. Destinatarios</h2>
+    <ul>
+      <li><strong>Google Ireland Limited / Google LLC</strong> — AdMob, UMP (consentimiento) y, si se usa Play, facturación. Política de Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+      <li><strong>Apple Inc.</strong> — App Store, ATT y facturación en iOS.</li>
+      <li><strong>RevenueCat, Inc.</strong> — gestión del entitlement Pro. No recibe el enunciado ni las respuestas de los tests.</li>
+      <li><strong>Supabase</strong> (backend de sync y auth opcional) — solo metadatos de versión de contenido y, si el usuario opta, estadísticas agregadas. El motor de test no hace red.</li>
+    </ul>
+    <p>No vendemos listados de opositores. No enviamos a las redes publicitarias el resultado de un test, el temario consultado ni un correo electrónico.</p>
+
+    <h2>5. Transferencias internacionales</h2>
+    <p>
+      Google, Apple y RevenueCat pueden tratar datos en Estados Unidos u otros
+      países. Cuando aplica, se amparan en la decisión de adecuación del
+      Data Privacy Framework UE-EE.&nbsp;UU. y/o en cláusulas contractuales tipo
+      de la Comisión Europea. Puedes pedir más detalle en
+      <a href="mailto:maetodev00@gmail.com">maetodev00@gmail.com</a>.
+    </p>
+
+    <h2>6. Conservación</h2>
+    <p>
+      Los datos de estudio permanecen en el dispositivo hasta que el usuario
+      desinstala la app o borra sus datos. El caché de suscripción Pro se
+      honra sin red durante un periodo de gracia de 7 días. Los identificadores
+      de publicidad siguen la política del fabricante y del CMP. Los registros
+      de compra los conservan Apple y Google según sus plazos.
+    </p>
+
+    <h2>7. Derechos</h2>
+    <p>
+      Puedes solicitar acceso, rectificación, supresión, oposición, limitación
+      y portabilidad, y retirar el consentimiento (incluido volver a abrir el
+      formulario UMP desde Ajustes). Escríbenos a
+      <a href="mailto:maetodev00@gmail.com">maetodev00@gmail.com</a>.
+      También puedes reclamar ante la Agencia Española de Protección de Datos
+      (<a href="https://www.aepd.es">aepd.es</a>).
+    </p>
+    <p>
+      En Ajustes de cada app hay enlaces a esta política, al aviso legal, al
+      correo de soporte y a la gestión del consentimiento.
+    </p>
+
+    <h2>8. Menores</h2>
+    <p>
+      Las oposiciones de empleo público se dirigen a personas en edad laboral.
+      Las apps no están dirigidas a menores de 14 años y no se configuran como
+      tratamiento infantil (COPPA / TFCD). Si tienes menos de 14 años, no uses
+      estas aplicaciones.
+    </p>
+
+    <h2>9. Cookies y rastros en estas páginas</h2>
+    <p>
+      Estas páginas legales estáticas no instalan cookies propias. Las
+      aplicaciones no usan cookies de navegador: usan el identificador de
+      publicidad del sistema y el SDK UMP, solo tras el flujo de consentimiento.
+    </p>
+
+    <h2>10. Cambios</h2>
+    <p>
+      Si cambia el tratamiento (por ejemplo, al activar AdMob o RevenueCat de
+      producción), actualizaremos esta página y la fecha del encabezado.
+    </p>
+  </main>
+  <footer>
+    <p>© 2026 MaetoDev SL. <a href="aviso-legal.html">Aviso legal</a></p>
+  </footer>
+</body>
+</html>
